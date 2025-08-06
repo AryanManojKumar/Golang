@@ -12,7 +12,7 @@ func main() {
 		a++
 	}
 
-	for i := 0; i < 10; i++ {
+	for i := 0; i < 100; i++ {
 
 		fmt.Println(i)
 
@@ -24,7 +24,7 @@ func main() {
 
 	}
 
-	for b := 0; b < 10; b++ {
+	for b := 0; b < 100; b++ {
 
 		if b%2 == 0 {
 			continue
