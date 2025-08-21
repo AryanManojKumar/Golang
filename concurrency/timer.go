@@ -53,3 +53,13 @@ func main() {
 	time.Sleep(16 * time.Second)
 
 }
+
+// func main() {
+
+// 	a := time.NewTimer(5 * time.Second)
+
+// 	fmt.Println("Timer set")
+
+// 	<-a.C
+// 	fmt.Println("timer complete ")
+// }
